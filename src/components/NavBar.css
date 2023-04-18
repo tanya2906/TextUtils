@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+  }
+  nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:  1rem 0.5rem 0 0.5rem;
+    background-color: rgb(227, 227, 227);
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    
+    list-style-type: none;
+  }
+  
+  nav ul li{
+    padding: 0 0.3rem;
+    
+  }
+  .title{
+    font-weight: bold;
+    font-size: large;
+  }
+  input{
+    border: 1px solid rgba(0, 0, 0, 0.231);
+  }
+  
+  @media only screen and (max-width:500px){
+    .title{
+      margin-left: -1.5rem;
+      margin-right: 1rem;
+    }
+  }

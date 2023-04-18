@@ -1,0 +1,20 @@
+.modes{
+    display: flex;
+   align-items: center;
+   position:absolute;
+   right: 0;
+}
+.modesDiv{
+    padding: 0.3rem 0.5rem;
+}
+.modesDiv img{
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+@media only screen and (max-width:500px){
+    .modesDiv img{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}

@@ -1,0 +1,15 @@
+.alertDiv{
+   
+    background-color: rgb(200, 234, 202);
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    padding: 0.5rem ;
+    font-weight: bolder;
+    color: rgb(50, 147, 53);
+}
+.close{
+    cursor: pointer;
+}

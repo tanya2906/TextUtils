@@ -1,0 +1,17 @@
+.aboutDiv{
+    padding: 2rem;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    top: 23%;
+    border: 0.5px solid rgba(0, 0, 0, 0.137);
+    box-shadow: 1px 1px 10px 1px;
+
+}
+@media only screen and (max-width:500px){
+    .aboutDiv{
+        font-size: 0.6rem;
+        padding: 1rem;
+    }
+}

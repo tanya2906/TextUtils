@@ -1,0 +1,49 @@
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+textarea{
+    grid-row: 3;
+    background-color: rgb(227, 227, 227);
+}
+.textbox h2{
+    margin: 2rem 0 1rem 0;
+}
+
+
+.summary{
+    padding: 0 1rem;
+    width: 90%;
+}
+button{
+    margin:0.6rem 1vw;
+    background-color: rgba(0, 0, 0, 0.094);
+    border-radius: 5px;
+    transition: background-color 2s;
+    text-align: center;
+  }
+button:hover{
+    background-color: rgba(8, 8, 8, 0.395);
+    color: white;
+    border-color: rgba(8, 8, 8, 0.363);
+  }
+.toSearch{
+    padding-left: 0.5rem;
+}
+
+@media only screen and (max-width:600px){
+    .buttons{
+        display: grid;
+    }
+}
+@media only screen and (max-width:500px){
+    .textbox h2{
+        margin: 0.5rem 0;
+    }
+    textarea{
+        width: 90%;
+        
+    }
+}
